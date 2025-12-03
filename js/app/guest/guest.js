@@ -254,10 +254,10 @@ export const guest = (() => {
         const url = new URL('https://calendar.google.com/calendar/render');
         const data = new URLSearchParams({
             action: 'TEMPLATE',
-            text: 'The Wedding of Iqbal and Mawar',
+            text: 'The Wedding of Mawar and Iqbal',
             dates: `${formatDate('2025-12-21 09:00')}/${formatDate('2025-12-21 11:00')}`,
             details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
-            location: 'Kampung Bunisari,Cihampelas No.4,RT 05 RW 06,Kab.Bandung Barat ,Jawa Barat 40562.',
+            location: 'Kampung Bunisari No.4 RT.5 RW.6 ,Desa Pataruman ,Kec.Cihampelas Kabupaten Bandung Barat.',
             ctz: config.get('tz'),
         });
 
